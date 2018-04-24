@@ -8,6 +8,7 @@ available! You currently have version '20180420.0.0'. The latest is version
 '20180424.0.0'. Run `vagrant box update` to update.
 
 References
+ 
 HowTo Configure Soft-RoCE (Method 1: Inbox Driver)  
 https://community.mellanox.com/docs/DOC-2184
 
