@@ -1,5 +1,5 @@
 # soft-RoCE-sandbox
-How to configure Soft-RoCE with Mellanox OFED-4.3
+work under progress:How to configure Soft-RoCE with Mellanox OFED-4.3
 
 HowTo Configure Soft-RoCE (Method 1: Inbox Driver)
 https://community.mellanox.com/docs/DOC-2184
