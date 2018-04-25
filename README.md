@@ -20,6 +20,14 @@ http://www.mellanox.com/related-docs/prod_software/Mellanox_OFED_Linux_Release_N
 How-To Dump RDMA traffic Using the Inbox tcpdump tool (ConnectX-4)
 https://community.mellanox.com/docs/DOC-2416
 
+To verify RXE kernel module is loaded. Mellanox OFED-4.3
+    # lsmod |grep rdma_rxe
+    rdma_rxe              114688  0
+    ip6_udp_tunnel         16384  1 rdma_rxe
+    udp_tunnel             16384  1 rdma_rxe
+    ib_core               208896  9 rdma_rxe,ib_cm,rdma_cm,ib_umad,ib_uverbs,ib_ipoib,iw_cm,ib_ucm,rdma_ucm
+ https://community.mellanox.com/docs/DOC-2184
+    
 Validate that RXE is working
 https://github.com/SoftRoCE/rxe-dev/wiki/Validate-that-RXE-is-working
 
