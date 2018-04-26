@@ -1,6 +1,9 @@
 # soft-RoCE-sandbox
 How to configure Soft-RoCE with Mellanox OFED-4.3 (work under progress)
 
+Download Mellanox OFED-4.3
+Mellanox OpenFabrics Enterprise Distribution for Linux (MLNX_OFED)
+http://www.mellanox.com/page/products_dyn?product_family=26
 
 HowTo Configure Soft-RoCE (Method 1: Inbox Driver)  
 https://community.mellanox.com/docs/DOC-2184
